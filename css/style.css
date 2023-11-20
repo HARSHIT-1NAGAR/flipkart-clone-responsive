@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+
+}
+.logo img{
+
+    width: 88px;
+    padding: 0 23px;
+    padding-top: 13px;
+}
+header{
+    height: 10vh;
+    background-color: rgb(15, 103, 235);
+    border: 2px solid red;
+    font-family: 'Raleway', sans-serif;
+  
+}
+footer{
+    
+    background-color: black;
+    color: white;
+    height: 11vh;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul {
+   
+    display: flex;
+    
+    
+}
+nav ul li {
+list-style: none;
+padding: 33px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input {
+  
+    width: 420px;
+    height: 33px;
+    border-radius: 2px;
+    margin: 17px 0 15px;
+}
+.container{
+    min-height: calc(100vh - 10vh - 11vh);
+}
+.slider{ 
+   
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
